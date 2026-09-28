@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
   <style type="text/css">
   /* Design Credits: Jon Barron and Deepak Pathak and Abhishek Kar and Saurabh Gupta and Tairan He*/
@@ -106,10 +107,7 @@
         I earned my Bachelor's degree from <a href="https://english.pku.edu.cn/">Peking University</a>, working with <a href="https://libliu.info/">Libin Liu</a> and <a href="https://scholar.google.com/citations?user=iHWtrEAAAAAJ&hl=en">Baoquan Chen</a>.
       </p>
       <p>
-        My research interests are in humanoid robotics and character animation. I am particularly interested in how humans and robots perceive and interact with the world, with a focus on achieving human-level agility and dexterity.
-      </p>
-      <p>
-        I'm always open to discussion and collaboration—feel free to drop me an email if you're interested.
+        My research interests are in AI, robotics, and character animation. I am particularly interested in how humans and robots perceive and interact with the world, with a focus on achieving human-level agility and dexterity.
       </p>
       <p>Email: zhenwu [AT] stanford.edu
       </p>
@@ -141,6 +139,51 @@
 </table>
 
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://prism-real2sim2real.github.io/">
+    <video autoplay loop muted playsinline preload="metadata" src="images/prism/prism.mp4" aria-label="PRISM humanoid loco-manipulation demonstration" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://prism-real2sim2real.github.io/" id="prism_1">
+      <heading>PRISM: Counterfactual Video Generation for Scalable Humanoid Loco-Manipulation</heading></a>
+      <br>
+      Zihan Wang, <b>Zhen Wu</b>, Pieter Abbeel<sup>†</sup>, Rocky Duan<sup>†</sup>, Jitendra Malik<sup>†</sup>, Carmelo Sferrazza<sup>†</sup>, Karen Liu<sup>†</sup>, Guanya Shi<sup>†</sup>, Angjoo Kanazawa<sup>†</sup>
+      <br>
+      <b>CoRL 2026</b><br>
+      </p>
+
+      <div class="paper" id="prism">
+      <a href="https://prism-real2sim2real.github.io/">webpage</a>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="40%" valign="top" align="center"><a href="https://ericcsr.github.io/scenebot/">
+    <video autoplay loop muted playsinline preload="metadata" src="images/scenebot/scenebot.mp4" aria-label="SceneBot contact-rich humanoid motion tracking demonstration" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px"></video>
+    </a></td>
+    <td width="60%" valign="top">
+      <p><a href="https://ericcsr.github.io/scenebot/" id="scenebot_1">
+      <heading>SceneBot: Contact-Prompted General Humanoid Whole Body Tracking with Scene-Interaction</heading></a>
+      <br>
+      Sirui Chen, Shibo Zhao, <b>Zhen Wu</b>, Jiaman Li, Guanya Shi<sup>†</sup>, C. Karen Liu<sup>†</sup>
+      <br>
+      <b>arXiv 2026</b><br>
+      </p>
+
+      <div class="paper" id="scenebot">
+      <a href="https://ericcsr.github.io/scenebot/">webpage</a> |
+      <a href="https://ericcsr.github.io/scenebot/mujoco_wasm/dist-desktop/index.html">interactive demo</a> |
+      <a href="https://arxiv.org/pdf/2606.27581">pdf</a> |
+      <a href="#scenebot_abs" onclick="toggleblock('scenebot_abs'); return false;">abstract</a>
+
+      <p align="justify"> <i id="scenebot_abs">
+        Current humanoid reinforcement-learning policies excel at free-space motions but struggle with contact-rich tasks, as pure kinematic tracking cannot resolve the physical ambiguities of interacting with objects and uneven terrain. To address this, we introduce SceneBot, a unified motion-tracking framework capable of handling freespace locomotion, terrain traversal, and whole-body manipulation. SceneBot conditions a single policy on both reference motions and per-link contact labels, explicitly defining expected environmental interactions. To overcome the lack of annotated interaction data, we propose a hindsight scene reconstruction approach that infers scene-interaction graphs from retargeted human motion. Trained on 7.5 hours of this reconstructed, contact-rich data, SceneBot successfully generalizes to unseen motions and environments. Our results demonstrate that SceneBot is the first general framework to seamlessly unify free-space and contact-rich behaviors—executing complex, long-horizon tasks like carrying a box upstairs and establishing contact conditioning as a powerful interface for humanoid control.
+      </i></p>
+      </div>
+    </td>
+  </tr>
 
   <tr>
     <td width="40%" valign="top" align="center"><a href="https://php-parkour.github.io/">
@@ -232,7 +275,7 @@ year={2025}
       </heading></a>
       <br>
       Tae Hoon Yang*, Haochen Shi*, Jiacheng Hu*, Zhicong Zhang, Daniel Jiang, Weizhuo Wang, Yao He, <b>Zhen Wu</b>, Yuming Chen, Yifan Hou, Monroe Kennedy III, Shuran Song<sup>†</sup>, C. Karen Liu<sup>†</sup>      <br>
-      <b>In Submission</b><br>
+      <b>arXiv 2026</b><br>
       </p>
   
       <div class="paper" id="lbf">
@@ -340,7 +383,7 @@ year={2025}
       <p><a href="https://arxiv.org/abs/2503.20118" id="zero_hoi_1">
       <heading>Zero-Shot Human-Object Interaction Synthesis with Multimodal Priors</heading></a><br>
       Yuke Lou*, Yiming Wang*, <b>Zhen Wu</b>, Rui Zhao, Wenjia Wang, Mingyi Shi, Taku Komura<br>
-      <b>In Submission</b><br>
+      <b>arXiv 2025</b><br>
       </p>
   
       <div class="paper" id="zero_hoi">
@@ -423,6 +466,7 @@ year={2025}
 hideallbibs();
 </script>
 <script xml:space="preserve" language="JavaScript">
+  hideblock('scenebot_abs');
   hideblock('php_abs');
 </script>
 <script xml:space="preserve" language="JavaScript">
